@@ -3,8 +3,8 @@ import QuizQuestionButton from './QuizQuestionButton';
 
 class QuizQuestion extends Component {
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state ={
       incorrectAnswer: false
     }
